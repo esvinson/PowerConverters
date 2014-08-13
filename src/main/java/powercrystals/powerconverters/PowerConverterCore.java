@@ -105,7 +105,7 @@ public final class PowerConverterCore
             GameRegistry.registerTileEntity(TileEntitySteamProducer.class, "powerConverterSteamProducer");
         }
 
-        powerSystemSteam = new PowerSystem("Steam", "STEAM", 500, 500,/*875, 875,*/null, null, "mB/t");
+        powerSystemSteam = new PowerSystem("Steam", "STEAM", 2000, 2000,/*875, 875,*/null, null, "mB/t");
         PowerSystem.registerPowerSystem(powerSystemSteam);
         for (LoaderBase base : bases)
             base.load(LoaderBase.Stage.PREINIT);
