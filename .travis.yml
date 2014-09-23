@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - openjdk6
+before_install: sudo apt-get update
+install: sudo apt-get --fix-missing install gradle
+before_script: gradle setupCIWorkspace -S
+script: gradle build -S
+after_script: gradle clean -S
+env:
+  global:
+    TERM=dumb

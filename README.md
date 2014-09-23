@@ -1,6 +1,6 @@
 PowerConverters (maintained by portablejim)
 ===================
-Build status: ![](http://jamesmckay.id.au:8080/job/Power%20Converters/badge/icon)
+Build status: [![Build Status](https://secure.travis-ci.org/esvinson/PowerConverters.png?branch=master)](http://travis-ci.org/esvinson/PowerConverters)
 
 Information
 --
